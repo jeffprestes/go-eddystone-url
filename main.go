@@ -17,6 +17,8 @@ const (
 )
 
 func main() {
+	//Here comes your URL
+	//Don't forget to check whether it follows Eddystone specification
 	f, err := eddystone.MakeURLFrame("http://bit.ly/1Ld89Mg", -4)
 	if err != nil {
 		panic(err)
