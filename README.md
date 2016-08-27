@@ -2,11 +2,12 @@
 
 ### Simple implementation of Eddystone-URL specification using Go ###
 
-With Go installed, clone the project and run:
+With Go installed, clone the project and then:
 
-1. ```$ go get github.com/suapapa/go_eddystone```
-2. ```$ go get github.com/currantlabs/gatt```
-3. ```$ go run main.go```  
+1. ```$ cd go-eddystone-url```
+2. ```$ go get github.com/suapapa/go_eddystone```
+3. ```$ go get github.com/currantlabs/gatt```
+4. ```$ go run main.go```  
 
 Depends of your Operating System you may need to execute the script with root previleges. So run: ```$ sudo go run main.go```
 
